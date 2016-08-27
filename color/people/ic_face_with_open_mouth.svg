@@ -1,0 +1,11 @@
+<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+	<style type="text/css">
+		.st0{fill:#FFCA28;stroke:#FFA000;stroke-width:2;}
+		.st1{opacity:0.54;fill:#000000;}
+	</style>
+	<circle class="st0" cx="12" cy="12" r="9"/>
+  <circle class="st1" cx="12" cy="15" r="2"/>
+  <circle class="st1" cx="15.5" cy="9.5" r="1.5"/>
+  <circle class="st1" cx="8.5" cy="9.5" r="1.5"/>
+  <path d="M0 0h24v24H0z" fill="none"/>
+</svg>
