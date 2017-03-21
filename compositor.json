@@ -1,0 +1,76 @@
+{
+  "name": "yishus/material-design-emoji",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "Material Design Emoji",
+  "branch": "",
+  "style": {
+    "name": "Swiss",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "heading": {
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "layout": {
+      "fluid": true
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/yishus/material-design-emoji",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "material-design-emoji",
+      "subhead": "Material Design emojis",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "material-design-emoji: Material Design emojis",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "yishus",
+          "repo": "material-design-emoji"
+        }
+      ]
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/yishus/material-design-emoji",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/yishus",
+          "text": "yishus"
+        }
+      ]
+    }
+  ]
+}
